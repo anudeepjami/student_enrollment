@@ -60,8 +60,9 @@ function App() {
       "LastName": event.target.id === "LastName" ? event.target.value : filtered_student.LastName,
       "KnownAs": event.target.id === "KnownAs" ? event.target.value : filtered_student.KnownAs,
       "DisplayName": event.target.id === "DisplayName" ? event.target.value : filtered_student.DisplayName,
+      "Gender": event.target.name === "Gender" ? event.target.id : filtered_student.Gender,
       "DateOfBirth": event.target.id === "DateOfBirth" ? event.target.value : filtered_student.DateOfBirth,
-      "HomeOrOverseas": event.target.id === "H" || event.target.id === "O" ? event.target.id : filtered_student.HomeOrOverseas
+      "HomeOrOverseas": event.target.name === "HomeOrOverseas" ? event.target.id : filtered_student.HomeOrOverseas
     }
     set_filtered_student(student_detail);
   }
@@ -147,6 +148,32 @@ function App() {
                     />
                   </InputGroup>
                   <InputGroup className="mb-3">
+                    <InputGroup.Text style={{ backgroundColor: "darkgrey" }}><b>Gender &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b></InputGroup.Text>
+                    &nbsp;&nbsp;
+                    <span style={{ padding: "8px 0" }}>
+                      <Form.Check
+                        inline
+                        name="Gender"
+                        label="Male"
+                        type='radio'
+                        id='M'
+                        checked={filtered_student?.Gender === "M"}
+                        onClick={EditStudentDetail}
+                        disabled={!student_profile_edit_enabled}
+                      />
+                      <Form.Check
+                        inline
+                        name="Gender"
+                        label="Female"
+                        type='radio'
+                        id='F'
+                        checked={filtered_student?.Gender === "F"}
+                        onClick={EditStudentDetail}
+                        disabled={!student_profile_edit_enabled}
+                      />
+                    </span>
+                  </InputGroup>
+                  <InputGroup className="mb-3">
                     <div className='d-flex'>
                       <InputGroup.Text
                         style={{ backgroundColor: "darkgrey" }}
@@ -202,6 +229,7 @@ function App() {
                     <span style={{ padding: "8px 0" }}>
                       <Form.Check
                         inline
+                        name="HomeOrOverseas"
                         label="Home"
                         type='radio'
                         id='H'
@@ -211,6 +239,7 @@ function App() {
                       />
                       <Form.Check
                         inline
+                        name="HomeOrOverseas"
                         label="Overseas"
                         type='radio'
                         id='O'
