@@ -6,6 +6,8 @@ import students from './data/students.json';
 import courses from './data/courses.json';
 import { format } from "date-fns";
 import { FiEdit } from 'react-icons/fi';
+import DatePicker from 'react-datepicker';
+import "react-datepicker/dist/react-datepicker.css";
 
 
 function App() {
@@ -36,15 +38,12 @@ function App() {
 
   var EditStudentDetail = (event) => {
     var student_detail = {
-      "StudentId": event.target.id === "StudentId" ? event.target.value : filtered_student.StudentId,
       "FirstName": event.target.id === "FirstName" ? event.target.value : filtered_student.FirstName,
       "LastName": event.target.id === "LastName" ? event.target.value : filtered_student.LastName,
       "KnownAs": event.target.id === "KnownAs" ? event.target.value : filtered_student.KnownAs,
       "DisplayName": event.target.id === "DisplayName" ? event.target.value : filtered_student.DisplayName,
       "DateOfBirth": event.target.id === "DateOfBirth" ? event.target.value : filtered_student.DateOfBirth,
-      "UniversityEmail": event.target.id === "UniversityEmail" ? event.target.value : filtered_student.UniversityEmail,
-      "NetworkId": event.target.id === "NetworkId" ? event.target.value : filtered_student.NetworkId,
-      "HomeOrOverseas": event.target.id === "HomeOrOverseas" ? event.target.value : filtered_student.HomeOrOverseas
+      "HomeOrOverseas": event.target.id === "H" || event.target.id === "O" ? event.target.id : filtered_student.HomeOrOverseas
     }
     set_filtered_student(student_detail);
   }
@@ -85,7 +84,6 @@ function App() {
                     </div>
                   </div>
                   <br />
-                  <Form>
                     <InputGroup className="mb-3">
                       <InputGroup.Text style={{ backgroundColor: "darkgrey" }}><b>Student Id &emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</b></InputGroup.Text>
                       <Form.Control
@@ -130,14 +128,38 @@ function App() {
                         disabled={!student_profile_edit_enabled}
                       />
                     </InputGroup>
-                    <InputGroup className="mb-3">
-                      <InputGroup.Text style={{ backgroundColor: "darkgrey" }}><b>Date Of Birth &emsp;&emsp;&nbsp;&nbsp;&nbsp;:</b></InputGroup.Text>
-                      <Form.Control
-                        id="DateOfBirth"
-                        value={format(new Date(filtered_student?.DateOfBirth), "dd/MM/yyyy")}
-                        onChange={EditStudentDetail}
-                        disabled={!student_profile_edit_enabled}
-                      />
+                  <InputGroup className="mb-3">
+                    <div className='d-flex'>
+                        <InputGroup.Text
+                          style={{ backgroundColor: "darkgrey" }}
+                        ><b>Date Of Birth &emsp;&emsp;&nbsp;&nbsp;&nbsp;:</b>
+                        </InputGroup.Text>
+                      {
+                        !student_profile_edit_enabled ?
+                          <div>
+                            <Form.Control
+                              id="DateOfBirth"
+                              value={format(new Date(filtered_student?.DateOfBirth), "dd/MM/yyyy")}
+                              disabled
+                            />
+                          </div>
+                          :
+                          <div>
+                            <DatePicker
+                              showIcon
+                              selected={new Date(filtered_student?.DateOfBirth)}
+                              onChange={(date) => {
+                                var e = {};
+                                e.target ={};
+                                e.target.value = format(date, "yyyy-MM-dd")+"T00:00:00";
+                                e.target.id = "DateOfBirth"
+                                EditStudentDetail(e)}
+                              }
+                              dateFormat="dd/MM/yyyy"
+                            />
+                        </div>
+                    }
+                    </div>
                     </InputGroup>
                     <InputGroup className="mb-3">
                       <InputGroup.Text style={{ backgroundColor: "darkgrey" }}><b>University Email &emsp;&nbsp;:</b></InputGroup.Text>
@@ -157,12 +179,27 @@ function App() {
                     </InputGroup>
                     <InputGroup className="mb-3">
                       <InputGroup.Text style={{ backgroundColor: "darkgrey" }}><b>Home Or Overseas :</b></InputGroup.Text>
-                      <Form.Control
-                        id="HomeOrOverseas"
-                        value={filtered_student?.HomeOrOverseas === "H" ? "Home" : "Overseas"}
-                        onChange={EditStudentDetail}
+                      &nbsp;&nbsp;
+                    <span style={{padding: "8px 0"}}>
+                      <Form.Check
+                        inline
+                        label="Home"
+                        type='radio'
+                        id='H'
+                        checked={filtered_student?.HomeOrOverseas === "H"}
+                        onClick={EditStudentDetail}
                         disabled={!student_profile_edit_enabled}
                       />
+                      <Form.Check
+                        inline
+                        label="Overseas"
+                        type='radio'
+                        id='O'
+                        checked={filtered_student?.HomeOrOverseas === "O"}
+                        onClick={EditStudentDetail}
+                        disabled={!student_profile_edit_enabled}
+                      />
+                      </span>
                     </InputGroup>
                     <br />
                     <>
@@ -257,7 +294,6 @@ function App() {
                         })}
                       </tbody>
                     </Table>
-                  </Form>
                 </Card.Body>
               </Card> :
               <Card className="text-center">
