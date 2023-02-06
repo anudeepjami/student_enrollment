@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import { Navbar, Form, Button, Card, Container, Table, InputGroup } from 'react-bootstrap';
 import Select from 'react-select'
 import students from './data/students.json';
