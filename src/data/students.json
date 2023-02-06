@@ -1,0 +1,609 @@
+[
+  {
+    "StudentId": "77777701",
+    "FirstName": "Test",
+    "LastName": "Test",
+    "KnownAs": "Test",
+    "DisplayName": "Test 1 Test",
+    "DateOfBirth": "2000-04-01T00:00:00",
+    "Gender": "F",
+    "UniversityEmail": "Test.Test19@mail.bcu.ac.uk",
+    "NetworkId": "S77777701",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777701/7",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "0",
+        "Occurrence": "JAN2S",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-02-05T00:00:00",
+        "ExpectedEndDate": "2021-09-06T00:00:00",
+        "Course":
+          {
+            "CourseCode": "PT0129Z",
+            "CourseName": "MA Interior Design (extended) (BCUIC)"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777702",
+    "FirstName": "Test",
+    "LastName": "Test 02",
+    "KnownAs": "Test",
+    "DisplayName": "Test 02 Test 02",
+    "DateOfBirth": "1986-07-18T00:00:00",
+    "Gender": "F",
+    "UniversityEmail": "test.test1@bcu.ac.uk",
+    "NetworkId": "S77777702",
+    "HomeOrOverseas": "O",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777702/2",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "JUL",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "P",
+        "CourseEntryDate": "2020-07-17T00:00:00",
+        "ExpectedEndDate": "2020-08-04T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "CP0045",
+            "CourseName": "International Summer School"
+          }        
+      },
+      {
+        "EnrolmentId": "77777702/3",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "2",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-12T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+      }
+    ]
+  },
+  {
+    "StudentId": "77777703",
+    "FirstName": "Test",
+    "LastName": "Test 03",
+    "KnownAs": "Test",
+    "DisplayName": "Test 03 Test 03",
+    "DateOfBirth": "1989-03-07T00:00:00",
+    "UniversityEmail": "Test.Test6@mail.bcu.ac.uk",
+    "NetworkId": "S77777703",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777703/2",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-02-12T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777704",
+    "FirstName": "Test",
+    "LastName": "Test 04",
+    "KnownAs": "Test",
+    "DisplayName": "Test 04 Test 04",
+    "DateOfBirth": "1990-12-11T00:00:00",
+    "UniversityEmail": "Test.Test18@mail.bcu.ac.uk",
+    "NetworkId": "S77777704",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777704/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777705",
+    "FirstName": "Test",
+    "LastName": "Test 05",
+    "KnownAs": "Test",
+    "DisplayName": "Test 05 Test 05",
+    "DateOfBirth": "1993-05-01T00:00:00",
+    "Gender": "M",
+    "UniversityEmail": "Test.Test3@mail.bcu.ac.uk",
+    "NetworkId": "S77777705",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777705/2",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "P",
+        "CourseEntryDate": "2020-09-24T00:00:00",
+        "ExpectedEndDate": "2021-07-31T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "US0001",
+            "CourseName": "BA (Hons) Fine Art"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777706",
+    "FirstName": "Test",
+    "LastName": "Test 06",
+    "KnownAs": "Test",
+    "DisplayName": "Test 06 Test 06",
+    "DateOfBirth": "1994-06-15T00:00:00",
+    "UniversityEmail": "Test.Test21@mail.bcu.ac.uk",
+    "NetworkId": "S77777706",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777706/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777707",
+    "FirstName": "Test",
+    "LastName": "Test 07",
+    "KnownAs": "Test",
+    "DisplayName": "Test 07 Test 07",
+    "DateOfBirth": "1996-09-19T00:00:00",
+    "UniversityEmail": "Test.Test2@mail.bcu.ac.uk",
+    "NetworkId": "S77777707",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777707/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777708",
+    "FirstName": "Test",
+    "LastName": "Test 08",
+    "KnownAs": "Test",
+    "DisplayName": "Test 08 Test 08",
+    "DateOfBirth": "1996-03-26T00:00:00",
+    "UniversityEmail": "Test.Test11@mail.bcu.ac.uk",
+    "NetworkId": "S77777708",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777708/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777709",
+    "FirstName": "Test",
+    "LastName": "Test 09",
+    "KnownAs": "Test",
+    "DisplayName": "Test 09 Test 09",
+    "DateOfBirth": "1997-08-30T00:00:00",
+    "UniversityEmail": "Test.Test12@mail.bcu.ac.uk",
+    "NetworkId": "S77777709",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777709/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777710",
+    "FirstName": "Test",
+    "LastName": "Test 10",
+    "KnownAs": "Test",
+    "DisplayName": "Test 10 Test 10",
+    "DateOfBirth": "1998-07-01T00:00:00",
+    "UniversityEmail": "Test.Test13@mail.bcu.ac.uk",
+    "NetworkId": "S77777710",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777710/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777711",
+    "FirstName": "Test",
+    "LastName": "Test 11",
+    "KnownAs": "Test",
+    "DisplayName": "Test 11 Test 11",
+    "DateOfBirth": "1991-10-13T00:00:00",
+    "UniversityEmail": "Test.Test17@mail.bcu.ac.uk",
+    "NetworkId": "S77777711",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777711/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course":
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777712",
+    "FirstName": "Test",
+    "LastName": "Test 12",
+    "KnownAs": "Test",
+    "DisplayName": "Test 12 Test 12",
+    "DateOfBirth": "1999-03-25T00:00:00",
+    "UniversityEmail": "Test.Test7@mail.bcu.ac.uk",
+    "NetworkId": "S77777712",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777712/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course":
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777713",
+    "FirstName": "Test",
+    "LastName": "Test 13",
+    "KnownAs": "Test",
+    "DisplayName": "Test 13 Test 13",
+    "DateOfBirth": "1993-02-17T00:00:00",
+    "UniversityEmail": "Test.Test8@mail.bcu.ac.uk",
+    "NetworkId": "S77777713",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777713/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course":
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777714",
+    "FirstName": "Test",
+    "LastName": "Test 14",
+    "KnownAs": "Test",
+    "DisplayName": "Test 14 Test 14",
+    "DateOfBirth": "1990-08-17T00:00:00",
+    "UniversityEmail": "Test.Test14@mail.bcu.ac.uk",
+    "NetworkId": "S77777714",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777714/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course":
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+      }
+    ]
+  },
+  {
+    "StudentId": "77777715",
+    "FirstName": "Test",
+    "LastName": "Test 15",
+    "KnownAs": "Test",
+    "DisplayName": "Test 15 Test 15",
+    "DateOfBirth": "1998-06-13T00:00:00",
+    "UniversityEmail": "Test.Test15@mail.bcu.ac.uk",
+    "NetworkId": "S77777715",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777715/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course":
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+      }
+    ]
+  },
+  {
+    "StudentId": "77777716",
+    "FirstName": "Test",
+    "LastName": "Test 16",
+    "KnownAs": "Test",
+    "DisplayName": "Test 16 Test 16",
+    "DateOfBirth": "1997-01-15T00:00:00",
+    "UniversityEmail": "Test.Test5@mail.bcu.ac.uk",
+    "NetworkId": "S77777716",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777716/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+      }
+    ]
+  },
+  {
+    "StudentId": "77777717",
+    "FirstName": "Test",
+    "LastName": "Test 17",
+    "KnownAs": "Test",
+    "DisplayName": "Test 17 Test 17",
+    "DateOfBirth": "1996-04-16T00:00:00",
+    "UniversityEmail": "Test.Test10@mail.bcu.ac.uk",
+    "NetworkId": "S77777717",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777717/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course":
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777718",
+    "FirstName": "Test",
+    "LastName": "Test 18",
+    "KnownAs": "Test",
+    "DisplayName": "Test 18 Test 18",
+    "DateOfBirth": "1998-08-02T00:00:00",
+    "UniversityEmail": "Test.Test9@mail.bcu.ac.uk",
+    "NetworkId": "S77777718",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777718/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+      }
+    ]
+  },
+  {
+    "StudentId": "77777719",
+    "FirstName": "Test",
+    "LastName": "Test 19",
+    "KnownAs": "Test",
+    "DisplayName": "Test 19 Test 19",
+    "DateOfBirth": "1999-11-12T00:00:00",
+    "UniversityEmail": "Test.Test16@mail.bcu.ac.uk",
+    "NetworkId": "S77777719",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777719/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+      }
+    ]
+  },
+  {
+    "StudentId": "77777720",
+    "FirstName": "Test",
+    "LastName": "Test 20",
+    "KnownAs": "Test",
+    "DisplayName": "Test 20 Test 20",
+    "DateOfBirth": "1998-09-09T00:00:00",
+    "UniversityEmail": "Test.Test4@mail.bcu.ac.uk",
+    "NetworkId": "S77777720",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777720/1",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-01T00:00:00",
+        "ExpectedEndDate": "2021-06-20T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "UP0000",
+            "CourseName": "Used for testing"
+          }
+        
+      }
+    ]
+  },
+  {
+    "StudentId": "77777777",
+    "FirstName": "Cict",
+    "LastName": "Student 2",
+    "KnownAs": "Cict",
+    "DisplayName": "Cict Test Student 2",
+    "DateOfBirth": "1990-01-01T00:00:00",
+    "Gender": "M",
+    "UniversityEmail": "Cict.Student@mail.bcu.ac.uk",
+    "NetworkId": "S77777777",
+    "HomeOrOverseas": "H",
+    "CourseEnrolment": [
+      {
+        "EnrolmentId": "77777777/5",
+        "AcademicYear": "2020/1",
+        "YearOfStudy": "1",
+        "Occurrence": "SEP",
+        "ModeOfAttendance": "FULL TIME",
+        "EnrolmentStatus": "E",
+        "CourseEntryDate": "2020-09-24T00:00:00",
+        "ExpectedEndDate": "2021-08-30T00:00:00",
+        "Course": 
+          {
+            "CourseCode": "PT1097",
+            "CourseName": "Master of Arts Video Game Development"
+          }        
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+﻿[
+  {
+    "CourseCode": "CP0007",
+    "CourseName": "Certificate of Attendance in Subject Knowledge Enhancement in Mathematics"
+  },
+  {
+    "CourseCode": "CP0012N",
+    "CourseName": "Medical Ultrasound Modules (PT)"
+  },
+  {
+    "CourseCode": "CP0039",
+    "CourseName": "Preparation for Mentors (PT)"
+  },
+  {
+    "CourseCode": "CP0045",
+    "CourseName": "International Summer School"
+  },
+  {
+    "CourseCode": "PT0129Z",
+    "CourseName": "MA Interior Design (extended) (BCUIC)"
+  },
+  {
+    "CourseCode": "PT0304",
+    "CourseName": "Master of Science Advanced Practice (Part-time)"
+  },
+  {
+    "CourseCode": "PT1097",
+    "CourseName": "Master of Arts Video Game Development"
+  },
+  {
+    "CourseCode": "UP0000",
+    "CourseName": "Used for testing"
+  },
+  {
+    "CourseCode": "UQ0004",
+    "CourseName": "Graduate Certificate in Psychology"
+  },
+  {
+    "CourseCode": "US0001",
+    "CourseName": "BA (Hons) Fine Art"
+  },
+  {
+    "CourseCode": "US0022",
+    "CourseName": "BA (Hons) Accountancy Scheme"
+  },
+  {
+    "CourseCode": "US0206",
+    "CourseName": "LLB (Hons)"
+  },
+  {
+    "CourseCode": "VQ0762",
+    "CourseName": "Bachelor of Science with Honours Film Production with Applied Technology"
+  }
+]
