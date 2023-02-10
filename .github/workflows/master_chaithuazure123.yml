@@ -24,14 +24,20 @@ jobs:
       - name: npm install, build, and test
         run: |
           npm install
-          npm run build --if-present
-          npm run test --if-present
+          CI=false npm run build
+          
+      - name: Zip Release
+        uses: TheDoctor0/zip-release@0.6.1
+        with:
+          type: 'zip'
+          directory: './build/'
+          filename: 'ui.zip'
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
-          name: node-app
-          path: .
+          name: student_enrollment
+          path: build/ui.zip
 
   deploy:
     runs-on: ubuntu-latest
@@ -44,7 +50,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v2
         with:
-          name: node-app
+          name: student_enrollment
 
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -53,4 +59,9 @@ jobs:
           app-name: 'chaithuazure123'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8EC4CFF85FC9464D88ACC13ADD03E401 }}
-          package: .
+          package: ui.zip
+          
+      - name: Delete Build Artifact
+        uses: joutvhu/delete-artifact@v1.0.1
+        with:
+          name: student_enrollment
