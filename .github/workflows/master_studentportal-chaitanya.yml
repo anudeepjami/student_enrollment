@@ -56,9 +56,9 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'studentportal-chaitanya'
-          slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EE726311244D436ABDE216AB545CDFCF }}
+          app-name: 'chaithuazure123'
+          slot-name: 'production'
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_71883a51b0bc406ebe42fa3200122351 }}
           package: ui.zip
           
       - name: Delete Build Artifact
